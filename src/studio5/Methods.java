@@ -76,6 +76,10 @@ public class Methods {
 	public static int arraySum(int[] values) {
 		int sum = 0;
 		// FIXME: Compute the sum of the values in an array
+		for (int i: values) {
+			System.out.print(i);
+			sum +=i; 
+		}
 		
 		return sum;
 	}
